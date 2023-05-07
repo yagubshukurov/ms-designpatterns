@@ -1,6 +1,6 @@
 package factory;
 
-public interface Developer {
+public abstract class Developer {
 
-    void develop();
+    public abstract String develop();
 }

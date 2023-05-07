@@ -1,8 +1,9 @@
 package factory;
 
-public class AndroidDeveloper implements Developer{
+public class AndroidDeveloper extends Developer{
     @Override
-    public void develop() {
+    public String develop() {
         System.out.println("Android developer works");
+        return null;
     }
 }
